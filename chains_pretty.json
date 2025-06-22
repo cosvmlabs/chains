@@ -4725,7 +4725,7 @@
   "title": "TAC Mainnet",
   "chain": "TAC",
   "icon": "tac",
-  "rpc": [],
+  "rpc": ["https://rpc.tac.build", "https://rpc.ankr.com/tac", "https://ws.rpc.tac.build"],
   "faucets": [],
   "nativeCurrency": {
     "name": "TAC",
@@ -4733,10 +4733,19 @@
     "decimals": 18
   },
   "infoURL": "https://tac.build/",
-  "shortName": "tac",
+  "shortName": "tacchain_239-1",
+  "slip44": 60,
   "chainId": 239,
   "networkId": 239,
-  "explorers": []
+  "explorers": [{
+    "name": "TAC Explorer",
+    "url": "https://explorer.tac.build",
+    "standard": "EIP3091"
+  }, {
+    "name": "Blockscout",
+    "url": "https://tac.blockscout.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Cronos zkEVM Testnet",
   "chain": "CronosZkEVMTestnet",
@@ -5959,22 +5968,23 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Cosvm Mainnet",
-  "chain": "CVM",
-  "rpc": ["https://rpc.cosvm.net"],
+  "name": "BuyCex Infinity Chain",
+  "chain": "BUYCEX",
+  "rpc": ["https://rpc.buycex.net", "wss://socket.buycex.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Cosvm",
-    "symbol": "CVM",
+    "name": "Buycex",
+    "symbol": "BCX",
     "decimals": 18
   },
-  "infoURL": "https://cosvm.network",
-  "shortName": "cvm",
+  "infoURL": "https://infinity.buycex.com",
+  "shortName": "buycex",
   "chainId": 323,
   "networkId": 323,
+  "status": "active",
   "explorers": [{
     "name": "Blockscout",
-    "url": "https://explorer.cosvm.net",
+    "url": "https://buycex.com",
     "icon": "blockscout",
     "standard": "EIP3091"
   }]
@@ -16827,10 +16837,32 @@
   "shortName": "tacchain_2390-1",
   "chainId": 2390,
   "networkId": 2390,
-  "slip44": 1,
+  "slip44": 60,
   "explorers": [{
     "name": "TAC Turin Blockscout",
     "url": "https://turin.explorer.tac.build",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "TAC Saint Petersburg",
+  "title": "TAC Testnet SPB",
+  "chain": "TAC",
+  "icon": "tactestnet",
+  "rpc": ["https://spb.rpc.tac.build", "https://rpc.ankr.com/tac_spb", "https://spb-ws.rpc.tac.build"],
+  "faucets": ["https://spb.faucet.tac.build/"],
+  "nativeCurrency": {
+    "name": "TAC",
+    "symbol": "TAC",
+    "decimals": 18
+  },
+  "infoURL": "https://tac.build/",
+  "shortName": "tacchain_2391-1",
+  "chainId": 2391,
+  "networkId": 2391,
+  "slip44": 60,
+  "explorers": [{
+    "name": "TAC SPB Explorer",
+    "url": "https://spb.explorer.tac.build",
     "standard": "EIP3091"
   }]
 }, {
@@ -18267,6 +18299,56 @@
   "chainId": 3270,
   "networkId": 3270,
   "slip44": 1
+}, {
+  "name": "Realio Testnet",
+  "chain": "Realio Testnet",
+  "rpc": ["https://json-rpc.realiostage.network", "https://realio-testnet.json-rpc.decentrio.ventures"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rio",
+    "symbol": "RIO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.realio.network",
+  "shortName": "realiotestnet",
+  "chainId": 3300,
+  "networkId": 3300,
+  "icon": "realiotestnet",
+  "explorers": [{
+    "name": "Realio Testnet Explorer",
+    "url": "https://explorer.realiostage.network",
+    "standard": "none"
+  }]
+}, {
+  "name": "Realio",
+  "chain": "Realio",
+  "rpc": ["https://json-rpc.realio.network", "https://realio.json-rpc.decentrio.ventures"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Rio",
+    "symbol": "RIO",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://www.realio.network",
+  "shortName": "realio",
+  "chainId": 3301,
+  "networkId": 3301,
+  "icon": "realio",
+  "explorers": [{
+    "name": "Realio Explorer",
+    "url": "https://explorer.realio.network",
+    "standard": "none"
+  }]
 }, {
   "name": "Debounce Subnet Testnet",
   "chain": "Debounce Network",
@@ -26220,6 +26302,27 @@
       "url": "https://gateway.boba.network"
     }]
   }
+}, {
+  "name": "Plasma Testnet",
+  "chain": "Plasma",
+  "rpc": ["https://ultra-quick-paper.plasma-testnet.quiknode.pro"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Testnet Plasma",
+    "symbol": "tXPL",
+    "decimals": 18
+  },
+  "infoURL": "https://plasma.to",
+  "shortName": "plasma",
+  "chainId": 9746,
+  "networkId": 9746,
+  "icon": "plasma",
+  "explorers": [{
+    "name": "Plasma Explorer",
+    "url": "https://plasma.gas.zip",
+    "icon": "plasma",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "MainnetZ Testnet",
   "chain": "NetZ",
@@ -41132,6 +41235,32 @@
     "standard": "none"
   }]
 }, {
+  "name": "Althea L1 Mainnet",
+  "chain": "ALTHEA",
+  "icon": "althea",
+  "rpc": ["https://rpc.althea.zone"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Althea",
+    "symbol": "ALTHEA",
+    "decimals": 18
+  },
+  "infoURL": "https://althea.net",
+  "shortName": "ALTHEA",
+  "chainId": 258432,
+  "networkId": 258432,
+  "slip44": 60,
+  "explorers": [{
+    "name": "Mintscan",
+    "url": "https://mintscan.io/althea",
+    "standard": "none"
+  }]
+}, {
   "name": "Eclat Testnet",
   "chain": "Eclat",
   "icon": "eclat",
@@ -41339,7 +41468,7 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "SaharaAI Testnet",
+  "name": "Sahara AI Testnet",
   "chain": "Sahara",
   "rpc": ["https://testnet.saharalabs.ai"],
   "faucets": [],
