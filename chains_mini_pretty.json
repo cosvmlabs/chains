@@ -1815,7 +1815,7 @@
     "symbol": "ERA",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.eternalcoin.io/v1", "ws://mainnet.eternalcoin.io/v1/ws"],
+  "rpc": ["https://mainnet.eteria.io/v1"],
   "faucets": [],
   "infoURL": "https://eteria.io"
 }, {
@@ -9008,6 +9008,19 @@
   "faucets": [],
   "infoURL": "https://selendra.org"
 }, {
+  "name": "T-Rex Testnet",
+  "chainId": 1962,
+  "shortName": "TREX",
+  "networkId": 1962,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://testnetrpc.trex.xyz"],
+  "faucets": [],
+  "infoURL": "https://trex.xyz/"
+}, {
   "name": "Eleanor",
   "chainId": 1967,
   "shortName": "mtc",
@@ -14285,6 +14298,32 @@
   "rpc": ["https://rpc.meversemainnet.io"],
   "faucets": [],
   "infoURL": "https://www.meverse.sg"
+}, {
+  "name": "Rome Mainnet 0 Palatine",
+  "chainId": 7531,
+  "shortName": "rome-mainnet-0-palatine",
+  "networkId": 7531,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://palatine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Mainnet 0 Aventine",
+  "chainId": 7532,
+  "shortName": "rome-mainnet-0-aventine",
+  "networkId": 7532,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://aventine-i.mainnet-0.romeprotocol.xyz"],
+  "faucets": ["https://deposit.mainnet-0.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
 }, {
   "name": "Cyber Mainnet",
   "chainId": 7560,
@@ -23204,6 +23243,19 @@
   "faucets": [],
   "infoURL": "https://ebi.xyz"
 }, {
+  "name": "Pay1 Network",
+  "chainId": 98964,
+  "shortName": "pay1",
+  "networkId": 98964,
+  "nativeCurrency": {
+    "name": "Pay1",
+    "symbol": "Pay1",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.pay1coin.com", "https://rpc0.pay1coin.com", "https://rpc1.pay1coin.com", "https://rpc2.pay1coin.com", "wss://ws.pay1coin.com", "wss://ws0.pay1coin.com", "wss://ws1.pay1coin.com", "wss://ws2.pay1coin.com"],
+  "faucets": [],
+  "infoURL": "https://pay1coin.com"
+}, {
   "name": "Superposition Testnet",
   "chainId": 98985,
   "shortName": "superposition-testnet",
@@ -23463,6 +23515,19 @@
   "rpc": ["https://c100501n3.deinfra.net:443/jsonrpc"],
   "faucets": [],
   "infoURL": "https://deinfra.net"
+}, {
+  "name": "Monsoon ",
+  "chainId": 100610,
+  "shortName": "monsoon",
+  "networkId": 100610,
+  "nativeCurrency": {
+    "name": "RDP",
+    "symbol": "RDP",
+    "decimals": 18
+  },
+  "rpc": ["https://monsoon.rainfall.one"],
+  "faucets": [],
+  "infoURL": ""
 }, {
   "name": "Socotra JUNE-Chain",
   "chainId": 101003,
@@ -23840,6 +23905,58 @@
   "rpc": ["https://rpc.testnet.chain.metadap.io", "wss://rpc-ws.testnet.chain.metadap.io"],
   "faucets": [],
   "infoURL": "https://metadap.io/"
+}, {
+  "name": "Rome Devnet Esquiline",
+  "chainId": 121212,
+  "shortName": "rome-devnet-esquiline",
+  "networkId": 121212,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://esquiline-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Devnet Subura",
+  "chainId": 121213,
+  "shortName": "rome-devnet-subura",
+  "networkId": 121213,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://subura-i.devnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.devnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Testnet Martius",
+  "chainId": 121214,
+  "shortName": "rome-testnet-martius",
+  "networkId": 121214,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://martius-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
+}, {
+  "name": "Rome Testnet Caelian",
+  "chainId": 121215,
+  "shortName": "rome-testnet-caelian",
+  "networkId": 121215,
+  "nativeCurrency": {
+    "name": "RSOL",
+    "symbol": "RSOL",
+    "decimals": 18
+  },
+  "rpc": ["https://caelian-i.testnet.romeprotocol.xyz"],
+  "faucets": ["https://deposit.testnet.romeprotocol.xyz"],
+  "infoURL": "https://rome.builders"
 }, {
   "name": "Fushuma",
   "chainId": 121224,
@@ -26333,7 +26450,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.katanarpc.com", "https://rpc.katana.network"],
+  "rpc": ["https://rpc.katana.network"],
   "faucets": [],
   "infoURL": "https://katana.network"
 }, {
@@ -29466,7 +29583,7 @@
     "symbol": "dSK",
     "decimals": 18
   },
-  "rpc": ["https://c3n1.thepower.io:1446/jsonrpc"],
+  "rpc": ["https://c3n1.thepower.io/jsonrpc"],
   "faucets": ["https://faucet.thepower.io/"],
   "infoURL": "https://deinfra.net"
 }, {
@@ -29778,7 +29895,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://public.sepolia.rpc.status.network", "wss://status-sepolia-rpc.eu-north-2.gateway.fm/ws"],
+  "rpc": ["https://public.sepolia.rpc.status.network"],
   "faucets": ["https://faucet.status.network/"],
   "infoURL": "https://status.network"
 }, {
